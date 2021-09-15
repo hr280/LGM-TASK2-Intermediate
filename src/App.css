@@ -1,38 +1,84 @@
-.App {
-  text-align: center;
+button{
+  border-radius: 5px;
+  border: none;
+  background-color:rgb(57, 103, 189);
+  color:white;
+  padding: 12px;
+  margin-right: 50%;
 }
+button:hover{
+ transition: 200ms;
+ scale:1.03;
+ background:linear-gradient(135deg, #CE9FFC 0%,#7367F0 100%);
+ color:black;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
 }
+nav{
+  color:rgb(22, 21, 21);
+  background-attachment: fixed;
+  background-color:transparent;
+}
+span{
+  color: #7367F0;
+  font-weight:bold;
+}
+.avatar{
+  position: relative;
+  width: 260px;
+  height: 260px;
+  top: -60px;
+  Left: 25px;
+  z-index: 1;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+  max-width: 100%;
+  border-radius:4px;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+}
+#main{
+  padding: 25px 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display:none;
+  width: 100% !important;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+.profile {
+  position: relative;
+  max-width: 300px; height: 420px;
+  background: #fff;
+  margin: 30px 10px;
+  padding: 20px 15px;
+  display: flex;  
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+  transition: 0.3s ease-in-out;
+}
+.profile:hover{
+ 
+  transition:400ms;
+  box-shadow: 0 8px 16px 0 rgba(97, 77, 77, 0.2);
+  transform: translateY(-3px);
+  background:linear-gradient(135deg, #E3E3E3 0%,#5D6874 100%);
+  color: #fff!important;
+  
+}
+.email {
+  color: black;
+  font-size: 18px;
+  margin-left: 20px;
 }
 
-.App-link {
-  color: #61dafb;
-}
+.name{
+  font-size:20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  margin-left: 20px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.user{
+  margin-left: 20px;
+}
+.loader{
+  margin-left: auto;
+  margin-right: auto;
 }
