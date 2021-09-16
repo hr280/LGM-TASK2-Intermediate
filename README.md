@@ -8,4 +8,4 @@
 
 4. Show a loader while the API fetches the data. 
 
-5. Use custom CSS/SASS/styled-components. 
+5. Use custom CSS/SASS/styled-components.
